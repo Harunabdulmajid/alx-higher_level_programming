@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-	sentence = ("At school, I learnt C!")
-print("The length is :", len(sentence))
+    return (len(sentence), sentence[0] if len(sentence) > 0 else None)
+
